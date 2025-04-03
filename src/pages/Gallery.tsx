@@ -2,64 +2,80 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 
-const categories = ['Tous', 'Portrait', 'Mode', 'Lifestyle', 'Extérieur'];
+
+
+const categories = ['Tous', 'Portrait', 'Sport', 'Animaux'];
 
 const images = [
   {
-    url: '',
-    category: 'Mode',
+    url: 'https://ginovalton.fr/images/DSCF4087.jpg',
+    category: 'Sport',
     alt: 'Fashion photography',
     orientation: 'portrait'
   },
   {
-    url: '',
-    category: 'Portrait',
+    url: 'https://ginovalton.fr/images/DSCF4147.jpg',
+    category: 'Sport',
     alt: 'Portrait in natural light',
     orientation: 'landscape'
   },
   {
-    url: '',
-    category: 'Portrait',
+    url: 'https://ginovalton.fr/images/DSCF4118.JPG',
+    category: 'Sport',
     alt: 'Portrait photography',
     orientation: 'portrait'
   },
   {
-    url: '',
-    category: 'Portrait',
+    url: 'https://ginovalton.fr/images/DSCF4136.JPG',
+    category: 'Sport',
     alt: 'Male portrait',
     orientation: 'square'
   },
   {
-    url: '',
-    category: 'Mode',
+    url: 'https://ginovalton.fr/images/DSCF4439.JPG',
+    category: 'Portrait',
     alt: 'Fashion portrait',
     orientation: 'portrait'
   },
   {
-    url: '',
-    category: 'Lifestyle',
+    url: 'https://ginovalton.fr/images/DSCF4483.JPG',
+    category: 'Animaux',
     alt: 'Lifestyle photography',
     orientation: 'portrait'
   },
   {
-    url: '',
+    url: 'https://ginovalton.fr/images/DSCF4698.JPG',
     category: 'Portrait',
     alt: 'Professional portrait',
-    orientation: 'square'
+    orientation: 'portrait'
   },
   {
-    url: '',
-    category: 'Extérieur',
+    url: 'https://ginovalton.fr/images/DSCF4785.JPG',
+    category: 'Portrait',
     alt: 'Outdoor photography',
     orientation: 'landscape'
   },
   {
-    url: '',
-    category: 'Mode',
+    url: 'https://ginovalton.fr/images/DSCF4809.JPG',
+    category: 'Portrait',
     alt: 'Fashion portrait',
     orientation: 'portrait'
+  },
+  {
+    url: 'https://ginovalton.fr/images/DSCF5756.JPG',
+    category: 'Portrait',
+    alt: 'Fashion portrait',
+    orientation: 'landscape'
+  },
+  {
+    url: 'https://ginovalton.fr/images/DSCF5811.JPG',
+    category: 'Portrait',
+    alt: 'Fashion portrait',
+    orientation: 'landscape'
   }
 ];
+
+
 
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState('Tous');
