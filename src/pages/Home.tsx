@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Helmet } from 'react-helmet-async';
 import { Camera } from 'lucide-react';
+import IMG_3071 from '../assets/IMG_3071.jpg';
 
 const Home = () => {
   const [ref, inView] = useInView({
@@ -97,7 +98,7 @@ const Home = () => {
               <div
                 className="w-full h-full bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('../../assets/IMG_3071.jpg')",
+                  backgroundImage: `url(${IMG_3071})`,
                 }}
               />
             </motion.div>
