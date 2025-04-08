@@ -28,7 +28,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&q=80")',
+            backgroundImage: 'url("https://ginovalton.fr/images/DSCF8578.jpg")',
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40" />
