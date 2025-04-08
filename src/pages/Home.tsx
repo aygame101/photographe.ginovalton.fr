@@ -28,7 +28,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("https://ginovalton.fr/images/DSCF8578.jpg")',
+            backgroundImage: 'url("https://ginovalton.fr/images/paysage_digoin.jpg")',
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40" />
